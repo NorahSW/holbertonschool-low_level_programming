@@ -36,7 +36,7 @@ int _atoi(char *s)
 
 	if (sign < 0)
 	{
-		return (-((int)result));
+		return ((int)-result);
 	}
 
 	return ((int)result);
