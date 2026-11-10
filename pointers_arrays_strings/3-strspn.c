@@ -2,9 +2,9 @@
 
 /**
  * _strspn - Gets the length of a prefix substring
- * @s: Pointer to the string to be scanned
- * @accept: Pointer to the string containing the characters to match
- * Return: Number of bytes in the initial segment of s consisting of accept bytes
+ * @s: Pointer to the string
+ * @accept: Characters to match
+ * Return: Number of bytes in initial segment
  */
 unsigned int _strspn(char *s, char *accept)
 {
